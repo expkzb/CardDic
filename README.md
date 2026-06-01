@@ -28,6 +28,22 @@ CardDic 是一个给 M5Stack Cardputer-Adv 使用的离线英译中词典。
 
 ## 快速使用
 
+### 0. 下载固件
+
+如果你只是想安装使用，不需要自己编译。直接下载仓库里的：
+
+```text
+dist/carddic-cardputer-adv-app.bin
+```
+
+这个文件用于 M5Launcher 安装。
+
+如果你想从 `0x0` 整体刷写，可以使用：
+
+```text
+dist/carddic-cardputer-adv-merged.bin
+```
+
 ### 1. 准备 SD 卡
 
 把 microSD 卡格式化为 FAT32，然后准备这个目录：

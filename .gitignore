@@ -3,7 +3,10 @@
 .vscode/
 __pycache__/
 *.pyc
-dist/
+dist/*
+!dist/
+!dist/carddic-cardputer-adv-app.bin
+!dist/carddic-cardputer-adv-merged.bin
 
 # Generated dictionary data. Rebuild with tools/download_ecdict.ps1 or tools/build_dictionary.py.
 sdcard/carddic/ecdict.csv
