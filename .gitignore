@@ -1,0 +1,16 @@
+.pio/
+.venv/
+.vscode/
+__pycache__/
+*.pyc
+dist/
+
+# Generated dictionary data. Rebuild with tools/download_ecdict.ps1 or tools/build_dictionary.py.
+sdcard/carddic/ecdict.csv
+sdcard/carddic/index.bin
+sdcard/carddic/entries.dat
+sdcard/carddic/prefix.bin
+
+# Legacy SD font from older builds; current firmware uses built-in CN font + ipa.bff.
+sdcard/carddic/font.vlw
+sdcard/carddic/FONT_LICENSE.txt
