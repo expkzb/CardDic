@@ -1,4 +1,4 @@
-# CardDic SD card files
+﻿# CardDic SD card files
 
 Prepare a FAT32 microSD card with this directory:
 
